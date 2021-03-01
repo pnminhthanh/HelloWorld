@@ -4,7 +4,7 @@ import colors from '../../config';
 const styles = StyleSheet.create({
     container: {
         flexDirection: "row",
-        paddingHorizontal: 20
+        padding: 15
     },
     image: {
         borderRadius: 35,
