@@ -5,7 +5,7 @@ import style from './styles';
 
 function Card({ title, subTitle, image }) {
     return <View style={style.card}>
-        <Image style={style.image} source={require('../../assets/thumbnail.jpg')} />
+        <Image style={style.image} source={image} />
         <View style={style.detailsContainer}>
             <AppText style={style.title}>{title}</AppText>
             <AppText style={style.subTitle}>{subTitle}</AppText>
