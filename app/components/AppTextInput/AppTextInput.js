@@ -13,7 +13,7 @@ function AppTextInput({ icon, size = 20, color = defaultStyles.colors.medium, ..
                 size={size}
                 color={color}
                 style={styles.icon} />}
-            <TextInput style={defaultStyles.text} {...otherProps} />
+            <TextInput style={[defaultStyles.text, { width: "100%" }]} {...otherProps} />
         </View>
     );
 }

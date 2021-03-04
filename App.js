@@ -6,9 +6,10 @@ import ListingDetailScreen from './app/screens/ListingDetailScreen'
 import MessageScreen from './app/screens/MessageScreen';
 import AccountScreen from './app/screens/AccountScreen'
 import ListingsScreen from './app/screens/ListingsScreen'
+import LoginScreen from './app/screens/LoginScreen';
 
 import { Icon, Screen } from './app/components/';
 
 export default function App() {
-  return <SimpleScreen />
+  return <LoginScreen />
 }
